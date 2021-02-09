@@ -9,8 +9,7 @@ export interface LoginResponce {
 export interface RegisterRequest {
     username: string;
     password: string;
-    password0: string;
-    password1: string;
+   
     token: string;
     firstName: string;
     lastName: string;
